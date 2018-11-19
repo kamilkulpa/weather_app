@@ -1,0 +1,173 @@
+body {
+	background: url(/img/diagmonds.png);
+
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+p {
+	color: #ffffff;
+	margin: 1px;
+}
+
+button {
+	background-color: rgba(59, 59, 59, 0.904);
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	border: 2px solid black;
+}
+
+button:hover {
+	background-color: rgba(41, 41, 41, 0.904);
+	color: white;
+}
+
+label {
+	min-width: 170px;
+	width: 120px;
+	height: 45px;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+#loginForm {
+	float: left;
+	margin: 1px;
+	width: 100%;
+	position: relative;
+	padding: 5px;
+	color: white;
+}
+
+input {
+	float: top;
+	position: relative;
+	padding: 10px 25px;
+	font-size: 12px;
+	background-color: rgba(59, 59, 59, 0.904);
+	color: white;
+	border: none;
+	border: 2px solid black;
+	margin: 5px;
+	margin-right: 20px;
+	margin-left: 0px;
+}
+
+select {
+
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+
+a {
+
+	position: relative;
+	margin-top: 20px;
+	min-width: 50px;
+	width: 150px;
+	height: 5px;
+	font-size: 20px;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background: url(mochaGrunge/mochaGrunge.png);
+	cursor: pointer;
+}
+
+#list {
+	float: left;
+	width: 100%;
+	min-width: 50px;
+	font-size: 20px;
+	padding: 5px;
+	color: white;
+	margin: 1px;
+	text-decoration: none;
+}
+
+.listElements {
+	float: left;
+	position: relative;
+	min-width: 100%;
+	height: auto;
+	font-size: 20px;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	border-bottom: dotted 2px black;
+
+}
+
+.elemnts {
+	float: left;
+	min-width: 100px;
+	margin: 10px;
+
+}
+
+.optionsUp {
+	float: right;
+	width: 95px;
+	height: 38px;
+	margin-left: 1px;
+}
+
+.optionsDown {
+	float: right;
+	width: 95px;
+	height: 38px;
+	margin-left: 1px;
+}
+
+.optionsDelete {
+	float: right;
+	width: 95px;
+	height: 38px;
+	margin-left: 1px;
+}
+
+.options {
+	float: right;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+.indexes {
+	float: left;
+	position: relative;
+	min-width: 100%;
+	height: auto;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	float: left;
+	min-width: 20px;
+	margin: 10px;
+	height: auto;
+}
+
+.dots {
+	float: left;
+	min-width: auto;
+	height: 22;
+	margin: 10px;
+	border-bottom: dotted white 2px;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
