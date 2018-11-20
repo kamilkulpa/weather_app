@@ -5,17 +5,16 @@ html
         link(href="http://fonts.googleapis.com/css?family=Karla:400,700|Titillium+Web:400,700&subset=latin,latin-ext" rel="stylesheet" type="text/css")
     body
         div(class="container")
-            fieldset
-                form(action = "/" method = "POST")
-                    input(name = "city" type = "text" required placeholder = "Enter a city" class="ghost-input")
-                    input(type="Submit" class="ghost-button" value="Get Weather")
-                p #{city}
-                br
-                if(weather != null && dates != null)
-                    each item,index in dates
-                        p #{item}
-                        each item1 in weather[index]
-                            p #{item1}
-                        br
-                if(error != null)
-                    p #{error}
+            form(action = "/" method = "POST")
+                input(name = "city" type = "text" required placeholder = "Enter a city" class="ghost-input")
+                input(type="Submit" class="ghost-button" value="Get Weather")
+            p #{city}
+            br
+            if(weather != null && dates != null)
+                each item,index in dates
+                    p #{item}
+                    each item1 in weather[index]
+                        p #{item1}
+                    br
+            if(error != null)
+                p #{error}
